@@ -44,6 +44,7 @@ Successfully installed active directory.
 
 <p>
                           Create 2 Organizational Units and an new User
+</p>
   
   ![IMG_9855](https://github.com/user-attachments/assets/8a3a0a35-0351-4960-acd2-17ae6b78fc45)
 
@@ -56,6 +57,7 @@ Within the AD folder I created 2 OU folders _EMPLOYEES and _ADMINS. After I adde
 
 <p>
                        Allow domain users(non-administrative users) access to remote desktop
+</p>
 
   ![IMG_9857](https://github.com/user-attachments/assets/61417234-d2d8-4de7-8995-00e84fde2a2e)
 
@@ -64,8 +66,9 @@ Within the AD folder I created 2 OU folders _EMPLOYEES and _ADMINS. After I adde
 I can now log into Client-1 as a normal, non-administrative user.
 </p>
 <br />
-
-                         Create additional users and logon with one of those users 
+<p>
+                               Create additional users and logon with one of those users 
+</p>
 
 ![IMG_9859](https://github.com/user-attachments/assets/c9f9b9bc-94a1-459f-ae70-5bcd258c0438)
                          
@@ -73,9 +76,10 @@ I can now log into Client-1 as a normal, non-administrative user.
 
 I logged onto DC-1 with jane_admin and opened powershellise, and ran a script that created over 10000 new users and I successfully chose a random user and logged into client 1 with one of those users.
 
-
+<p>
                                                      EXTRAS
-                                               
+ </p>                                              
+
 
 ![IMG_9860](https://github.com/user-attachments/assets/b4a1d9b3-0603-49e1-8c0d-9b907a2a6a69)
 Successfully unlocked an users account after they got locked out
